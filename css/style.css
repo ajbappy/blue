@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*headr start*/
+header{
+	background-color: #121B2A;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.logo{
+	margin-top: 2px;
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+	margin-top: 60px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+     font-size: 16px;
+     font-weight: 400;
+     list-style: none;
+     float: left;
+}
+.menu ul li a{
+       margin: 0 50px;
+       text-transform: uppercase;
+       text-decoration: none;
+       display: inline-block;
+       color: #FFFFFF;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+	
+}
+.menu ul li a:hover{
+	color: #005795;
+}
+
+/*headr end*/
+/*banner start*/
+.banner{
+   background-image: url(../img/bck.jpg);
+   width: 100%;
+   min-height: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+.banner-content{
+	width: 45%;
+	margin-top: 300px;
+	margin-bottom: 100px; 
+}
+.banner-content h1{
+	color: #FFFFFF;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.banner-content h2{
+	color: #005795;
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0;
+}
+.banner-content p{
+	color: #FFFFFF;
+    font-size: 17px;
+	line-height: 25px;
+	font-weight:300px;
+	margin-top: 0;
+}
+.banner-content button{
+	width: 170px;
+	height: 40px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 9px;
+	border: none;
+	border-radius: 5px;
+	color: #9B9E9E;
+}
+.banner-content span{
+	background-color: blue;
+	padding: 4px 7px;
+	border-radius: 50%;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #131B2D;
+
+
+}
+.singel{
+width: 31%;
+border-right: 1px solid white;
+float: left;
+overflow: hidden;
+padding: 10px 17px;
+margin:100px 0;
+}
+.singel:last-child{
+	border-right: 0;
+	padding-right: 0;
+}
+.singel:last-child h1{
+	float: left;
+	margin-top: 36px;
+	margin-right: 0;
+	text-transform: capitalize;
+}
+.singel:last-child h2{
+	float: right;
+    margin-top: 50px;
+        margin-right: 20px;
+    text-transform: capitalize;
+}
+.f-text{
+  overflow: hidden;
+}
+.pic{
+	width: 30%;
+	/*border: 1px solid red;*/
+	float: left;
+
+}
+.pic img{
+	width: 100%;
+	height: 100px;
+}
+.pic-content{
+	overflow: hidden;
+	width: 68%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.pic-content h1{
+	font-size: 31px;
+	font-weight: 400px;
+	color: #FFFFFF;
+	margin: 0;
+	padding-top: 11px;
+	text-transform: capitalize;
+}
+.pic-content h2{
+	font-size: 31px;
+	font-weight: 400px;
+	color: #29638D;
+	margin: 0;
+	text-transform: capitalize;
+}
+.l-text{}
+.l-text p{
+	color: #FFFFFF;
+	margin: 0;
+	font-size: 18px;
+	line-height: 1.5;
+}
+/*service end*/
